@@ -18,6 +18,11 @@
 
 <script setup lang="ts">
 defineProps(['isAuthenticated'])
+
+useSeoMeta({
+  title: () => 'Listing des films',
+  ogTitle: () => 'Listing des films',
+})
 /**
  * Load data from the web
  * classicly, without their fetch

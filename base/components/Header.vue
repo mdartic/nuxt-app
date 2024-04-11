@@ -13,37 +13,43 @@
       </NuxtLink>
       <div>
         <NuxtLink
-                              class="nuxt-link"
-          to="/"
+          class="nuxt-link"
+          to="/pouet"
         >
           Home
         </NuxtLink>
         <NuxtLink
-                              class="nuxt-link"
+          class="nuxt-link"
           to="/blog"
         >
           Blog
         </NuxtLink>
         <NuxtLink
-                              class="nuxt-link"
+          class="nuxt-link"
+          to="/blog-search"
+        >
+          Blog search
+        </NuxtLink>
+        <NuxtLink
+          class="nuxt-link"
           to="/csr"
         >
           CSR
         </NuxtLink>
         <NuxtLink
-                              class="nuxt-link"
+          class="nuxt-link"
           to="/ssr"
         >
           SSR
         </NuxtLink>
         <NuxtLink
-                              class="nuxt-link"
+          class="nuxt-link"
           to="/usefetch"
         >
           useFetch
         </NuxtLink>
         <NuxtLink
-                              class="nuxt-link"
+          class="nuxt-link"
           to="/universal"
         >
           Universal

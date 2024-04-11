@@ -12,7 +12,14 @@
 <script setup lang="ts">
 const { data: page } = await useAsyncData('my-page', queryContent('/').findOne)
 
-console.log(page)
+defineOgImageComponent('NuxtSeo', {
+  title: page.value?.title,
+  description: page.value?.description,
+  theme: '#FFD108',
+  colorMode: 'light',
+  siteLogo: '/makina_sapiens.png'
+})
+
 useContentHead(page)
 </script>
 

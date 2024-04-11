@@ -1,7 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  extends: './base',
   devtools: {
-    enabled: false,
+    // enabled: false,
   },
   sourcemap: true,
 
@@ -26,6 +27,18 @@ export default defineNuxtConfig({
     }
   },
 
+  content: {
+    experimental: {
+      search: true
+    }
+  },
+
+  app: {
+    head: {
+      titleTemplate: '%s'
+    }
+  },
+
   /**
    * Specific for NuxtPicture / NuxtImage
    */
@@ -37,7 +50,16 @@ export default defineNuxtConfig({
     ]
   },
 
-  modules: ["@nuxt/image", '@nuxt/content', "@sidebase/nuxt-auth"],
+  site: {
+    url: 'https://mc-nuxt-app.netlify.com',
+  },
+
+  modules: [
+    "@nuxt/image",
+    '@nuxt/content',
+    "@sidebase/nuxt-auth",
+    "@nuxtjs/seo"
+  ],
 
   auth: {
     baseURL: 'http://localhost:3030/',

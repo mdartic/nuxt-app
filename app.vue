@@ -20,7 +20,7 @@ useSeoMeta({
   ogTitle: 'Formation Nuxt Sapiens',
   description: 'Site du TP de la formation Nuxt Sapiens',
   ogDescription: 'Site du TP de la formation Nuxt Sapiens',
-  ogImage: 'http://mc-nuxt.surge.sh/images/MC_Logo_Vertical_Quadri.svg',
+  ogImage: 'http://mc-nuxt.surge.sh/images/MC_Formation_Logo_Horizontal_Quadri.svg',
   twitterCard: 'summary_large_image',
 })
 
