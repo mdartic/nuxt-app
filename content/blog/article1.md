@@ -1,9 +1,11 @@
 ---
 title: Salut les coupaings
 navigation:
-  description: >
-    pouet
-    pouic
+  description: |
+    pouet pouic
+date: 2024-04-11T17:39:00.000Z
+description: En créant un fichier dans un répertoire blog, le contenu est
+  affiché sur l'URL publique /blog/article1.
 ---
 
 # Premier article de blog
