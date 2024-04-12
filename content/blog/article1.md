@@ -12,4 +12,4 @@ le contenu est affiché sur l'URL publique `/blog/article1`.
 
 Affichage d'une image centrée, redimensionnée à 400 et surchargée par `ProseImg` :
 
-![Logo Makina Sapiens](/makina_sapiens.png)
+![Logo Makina Sapiens](/makina_sapiens.png){ style="width: 1000px" }
