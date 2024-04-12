@@ -1,8 +1,10 @@
 ---
 navigation:
-  description: >
-    pouet
-    pouic
+  description: |
+    pouet pouic
+title: Septième article de blog
+date: 2024-04-12T13:55:00.000Z
+description: pouet pouet
 ---
 
 # Septième article de blog
